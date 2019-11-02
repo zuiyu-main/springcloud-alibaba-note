@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tz</groupId>
-	<artifactId>note</artifactId>
+	<artifactId>alibaba-nacos-discovery-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>note</name>
+	<name>alibaba-nacos-discovery-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
