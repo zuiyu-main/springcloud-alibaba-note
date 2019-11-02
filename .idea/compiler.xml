@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-alibaba" />
         <module name="alibaba-nacos-discovery-client-common" />
         <module name="springcloud-note" />
+        <module name="springcloud-alibaba" />
         <module name="alibaba-nacos-discovery-server" />
+        <module name="springcloud-alibaba-note" />
       </profile>
     </annotationProcessing>
   </component>
