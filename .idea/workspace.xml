@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="891217f6-b4ec-445f-a8c5-dd0dd3bdb588" name="Default Changelist" comment="">
+    <list default="true" id="891217f6-b4ec-445f-a8c5-dd0dd3bdb588" name="Default Changelist" comment="设置打开运行面板">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/springcloud-alibaba-note.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/src/main/java/com/tz/config/ServerConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/src/main/java/com/tz/config/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-config/src/test/java/com/tz/config/ConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/main/java/com/tz/noteclient/ServerConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/main/java/com/tz/noteclient/config/ServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/main/java/com/tz/noteclient/NoteclientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/test/java/com/tz/noteclient/NoteclientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/src/test/java/com/tz/noteclient/ServerConsumerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/main/java/com/tz/note/NoteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/main/java/com/tz/note/ServerProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/test/java/com/tz/note/NoteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba-nacos-discovery-server/src/test/java/com/tz/note/ServerProviderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +41,17 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -40,20 +73,38 @@
     </option>
   </component>
   <component name="ProjectId" id="1PPkNsnGN4UWn4K7jxsAT6n0298" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -62,18 +113,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NoteApplication">
+  <component name="RunManager" selected="Spring Boot.ServerConfigApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="springcloud-alibaba" />
       <option name="VM_PARAMETERS" />
@@ -121,20 +162,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="alibaba-nacos-discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.note.NoteApplication" />
+    <configuration name="ServerConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tz.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.config.ServerConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoteclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ServerConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="alibaba-nacos-discovery-client-common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.noteclient.NoteclientApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tz.noteclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.noteclient.ServerConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-nacos-discovery-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tz.note.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tz.note.ServerProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServerProviderApplication" />
+        <item itemvalue="Spring Boot.ServerConsumerApplication" />
+        <item itemvalue="Spring Boot.ServerConfigApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.24616508" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -153,6 +252,13 @@
       <workItem from="1565783083400" duration="67000" />
       <workItem from="1571025574391" duration="271000" />
       <workItem from="1572686148173" duration="351000" />
+      <workItem from="1572688544655" duration="146000" />
+      <workItem from="1572861100801" duration="801000" />
+      <workItem from="1572866844706" duration="599000" />
+      <workItem from="1572916658567" duration="418000" />
+      <workItem from="1598339840647" duration="1523000" />
+      <workItem from="1598343042391" duration="4960000" />
+      <workItem from="1598410260361" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="code init">
       <created>1561025201332</created>
@@ -161,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561025201333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="设置打开运行面板">
+      <created>1572688677560</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572688677560</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,12 +294,92 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="code init" />
-    <option name="LAST_COMMIT_MESSAGE" value="code init" />
+    <MESSAGE value="设置打开运行面板" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置打开运行面板" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="WindowStateProjectService">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598346747763">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598346747763" />
+    <state x="355" y="315" width="730" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598343703136">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="355" y="315" width="730" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598343703136" />
+    <state x="387" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598346709824">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="387" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598346709824" />
+    <state x="88" y="23" key="CommitChangelistDialog2" timestamp="1598410457278">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="88" y="23" key="CommitChangelistDialog2/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598410457278" />
+    <state width="1031" height="351" key="GridCell.Tab.0.bottom" timestamp="1598348969038">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458697" />
+    <state width="1031" height="351" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256271" />
+    <state width="1031" height="351" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969038" />
+    <state width="1091" height="351" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369345" />
+    <state width="1031" height="351" key="GridCell.Tab.0.center" timestamp="1598348969036">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.0.center/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458695" />
+    <state width="1031" height="351" key="GridCell.Tab.0.center/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256267" />
+    <state width="1031" height="351" key="GridCell.Tab.0.center/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969036" />
+    <state width="1091" height="351" key="GridCell.Tab.0.center/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369341" />
+    <state width="1031" height="351" key="GridCell.Tab.0.left" timestamp="1598348969034">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.0.left/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458694" />
+    <state width="1031" height="351" key="GridCell.Tab.0.left/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256266" />
+    <state width="1031" height="351" key="GridCell.Tab.0.left/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969034" />
+    <state width="1091" height="351" key="GridCell.Tab.0.left/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369340" />
+    <state width="1031" height="351" key="GridCell.Tab.0.right" timestamp="1598348969037">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.0.right/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458696" />
+    <state width="1031" height="351" key="GridCell.Tab.0.right/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256268" />
+    <state width="1031" height="351" key="GridCell.Tab.0.right/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969037" />
+    <state width="1091" height="351" key="GridCell.Tab.0.right/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369343" />
+    <state width="1031" height="351" key="GridCell.Tab.1.bottom" timestamp="1598348969041">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458701" />
+    <state width="1031" height="351" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256273" />
+    <state width="1031" height="351" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969041" />
+    <state width="1091" height="351" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369353" />
+    <state width="1031" height="351" key="GridCell.Tab.1.center" timestamp="1598348969039">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.1.center/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458699" />
+    <state width="1031" height="351" key="GridCell.Tab.1.center/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256272" />
+    <state width="1031" height="351" key="GridCell.Tab.1.center/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969039" />
+    <state width="1091" height="351" key="GridCell.Tab.1.center/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369349" />
+    <state width="1031" height="351" key="GridCell.Tab.1.left" timestamp="1598348969038">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.1.left/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458698" />
+    <state width="1031" height="351" key="GridCell.Tab.1.left/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256271" />
+    <state width="1031" height="351" key="GridCell.Tab.1.left/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969038" />
+    <state width="1091" height="351" key="GridCell.Tab.1.left/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369347" />
+    <state width="1031" height="351" key="GridCell.Tab.1.right" timestamp="1598348969040">
+      <screen x="-1920" y="105" width="1920" height="1057" />
+    </state>
+    <state width="1091" height="351" key="GridCell.Tab.1.right/0.0.1440.900/-1920.105.1920.1057@0.0.1440.900" timestamp="1598344458700" />
+    <state width="1031" height="351" key="GridCell.Tab.1.right/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598347256272" />
+    <state width="1031" height="351" key="GridCell.Tab.1.right/0.23.1440.877/-1920.105.1920.1057@-1920.105.1920.1057" timestamp="1598348969040" />
+    <state width="1091" height="351" key="GridCell.Tab.1.right/0.23.1440.877/-1920.105.1920.1057@0.23.1440.877" timestamp="1598344369352" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598410492311">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598410492311" />
+    <state x="147" y="0" key="new project wizard" timestamp="1598343216593">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="147" y="0" key="new project wizard/0.0.1440.900/-1920.82.1920.1080@0.0.1440.900" timestamp="1598343216593" />
   </component>
   <component name="masterDetails">
     <states>

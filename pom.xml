@@ -7,6 +7,36 @@
     <groupId>com.tz</groupId>
     <artifactId>basenote</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <!--
+        parent：定义spring boot的版本
+        dependencyManagement：spring cloud的版本以及spring cloud alibaba的版本，
+        由于spring cloud alibaba还未纳入spring cloud的主版本管理中，所以需要自己加入
+        dependencies：当前应用要使用的依赖内容。
+        这里主要新加入了Nacos的服务注册与发现模块：spring-cloud-starter-alibaba-nacos-discovery。
+        由于在dependencyManagement中已经引入了版本，所以这里就不用指定具体版本了
+        -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>0.2.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
