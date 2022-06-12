@@ -26,6 +26,10 @@ public class ServerProviderApplication {
 			log.info("invoked name = " + str);
 			return "hello " + str;
 		}
+		@GetMapping("/test")
+		public String test() {
+			return "hello sentinel";
+		}
 	}
 
 }
