@@ -85,7 +85,7 @@ curl -X POST 'http://127.0.0.1:8848/nacos/v1/ns/instance?serviceName=nacos.namin
   </project>
   ```
 
-* [GitHub 本文示例demo]()
+* [GitHub 本文示例demo](https://github.com/TianPuJun/springcloud-alibaba-note)
 
 ### 笔记说明
 
