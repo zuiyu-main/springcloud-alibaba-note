@@ -2,6 +2,8 @@ package com.tz.sentinel.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.alibaba.nacos.api.NacosFactory;
+import com.alibaba.nacos.api.config.ConfigService;
 import com.tz.sentinel.agent.FeignAgent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -32,5 +34,23 @@ public class TestController {
     @GetMapping("/feign")
     public String feignHello(){
         return feignAgent.hello();
+    }
+    // 手动创建配置限流规则
+    public static void main(String[] args) throws Exception {
+        final String remoteAddress = "localhost:8848";
+        final String groupId = "Sentinel_Demo";
+        final String dataId = "com.alibaba.csp.sentinel.demo.flow.rule";
+        final String rule = "[\n"
+                + "  {\n"
+                + "    \"resource\": \"Sentinel_SpringCloud\",\n"
+                + "    \"controlBehavior\": 0,\n"
+                + "    \"count\": 5.0,\n"
+                + "    \"grade\": 1,\n"
+                + "    \"limitApp\": \"default\",\n"
+                + "    \"strategy\": 0\n"
+                + "  }\n"
+                + "]";
+        ConfigService configService = NacosFactory.createConfigService(remoteAddress);
+        System.out.println(configService.publishConfig(dataId, groupId, rule));
     }
 }
